@@ -3,7 +3,7 @@ import { ALGORITHMS } from 'jsonwebtoken';
 
 class AuthLiteClient {
   private secretKey: string;
-  private apiKey: string;
+  private apiKey: string ;
   private orgId?: string;
   private signedKey: string;
 
