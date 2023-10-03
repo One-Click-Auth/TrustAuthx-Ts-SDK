@@ -5,7 +5,7 @@ class AuthLiteClient {
   private secretKey: string;
   private apiKey: string;
   private orgId?: string;
-  private signedKey: string;
+  private signedKey: string ;
 
   constructor(apiKey: string, secretKey: string, orgId?: string) {
     this.secretKey = secretKey;
