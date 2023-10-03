@@ -208,7 +208,7 @@ class AuthLiteClient {
         return d;
       }
     } catch (error) {
-      throw new Error('Both tokens are invalid, please log in again');
+      throw new Error('Both tokens are invalid, please log in again',error);
     }
   }
 }
